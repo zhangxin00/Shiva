@@ -1,0 +1,8 @@
+    inception_resnet_v2_tf
+    inception_v3_tf
+    inception_v4_2016_09_09_tf
+    resnet_v2_101_tf
+    resnet_v2_152_tf
+    resnet_v2_50_tf
+    inception_v3_tf2
+    inception_v3_pt

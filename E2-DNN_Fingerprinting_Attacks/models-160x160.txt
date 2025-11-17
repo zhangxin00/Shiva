@@ -1,0 +1,2 @@
+    mobilenet_v1_0_5_160_tf
+    ofa_resnet50_0_9B_pt

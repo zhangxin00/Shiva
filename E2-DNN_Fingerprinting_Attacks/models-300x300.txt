@@ -1,0 +1,1 @@
+    efficientNet-edgetpu-L_tf
