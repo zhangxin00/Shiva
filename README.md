@@ -3,7 +3,7 @@
 This repository contains the experiments of covert channel and DNN fingerprinting attacks discussed in the paper:
 * "Shiva: Revealing and Exploiting Emerging Attack Surfaces in Heterogeneous ARM-FPGA SoCs"
 
-Shiva is a novel remote side-channel attack on ARM-FPGA SoCs that elimimates the need of either co-located circuits or unprevileged sensors, identifying representative channels capturing CPU-level observables from shared-resource interactions and revealing meaningful leakage via interrupts and DRAM access latency.
+Shiva is a remote side-channel attack on ARM-FPGA SoCs that elimimates the need of either co-located circuits or unprevileged sensors, identifying novel channels capturing CPU-level observables from shared-resource interactions and revealing meaningful leakage via interrupts and DRAM access latency.
 
 ## Tested Setup
 
@@ -33,4 +33,5 @@ This repository contains the following materials:
 
 * `E1-Covert_Channels`: contains customized DRAM write IP core, pre-built Petalinux images,  sender/receiver code, and tools to calculate covert channel BER (bit error rate) under different per-bit sending times.
 * `E2-DNN_Fingerprinting_Attacks`: The experiment uses machine learning classifiers to correlate the collected side-channel traces with the underlying DPU model architectures, achieving high accuracy in identifying model architectures based on side-channel information.
+
 
