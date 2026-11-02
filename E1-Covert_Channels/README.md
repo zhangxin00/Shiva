@@ -3,7 +3,7 @@
 The equipment used in this experiment is the PYNQ-Z2, which features a Zynq-7000 SoC.
 
 ## PL
-The PL directory provides pre-built Petalinux images and source files for the customized DRAM write IP core: 
+The PL directory provides pre-built Petalinux images and **source files for the customized DRAM write IP core**: 
 ```
 PL/
   |BOOT.BIN  (customized)                  
