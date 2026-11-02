@@ -6,8 +6,8 @@ The equipment used in this experiment is the PYNQ-Z2, which features a Zynq-7000
 The PL directory provides pre-built Petalinux images and source files for the customized DRAM write IP core: 
 ```
 PL/
-  |BOOT.BIN                     
-  |image.ub                     
+  |BOOT.BIN  (customized)                  
+  |image.ub  (customized)                 
   |write_to_ddr.cpp       
 ```
 ### Step 1: Export Customized DRAM Write IP Core via Vivado HLS
